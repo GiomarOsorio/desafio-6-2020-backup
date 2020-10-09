@@ -46,7 +46,7 @@ Anáhuac cuenta con mucha información relacionada con el desempeño y actividad
 
 Anáhuac tiene una enorme cantidad de información de comportamiento de los estudiantes de los diferentes programas en linea. El participante debe desarrollar un algoritmo o un modelo de Machine Learning que sea capaz de predecir cuáles alumnos aprobarán con éxito el programa de posgrado al que se inscriben y cuales desertarán
 
-En este desafío, Anáhuac usará herramientas de IBM como *[Watson Studio (o Cloud Pack for Data)](https://cloud.ibm.com/catalog/services/watson-studio)*  para construir un modelo de Machine Learning.
+En este desafío, Anáhuac usará herramientas de IBM como _[Watson Studio (o Cloud Pack for Data)](https://cloud.ibm.com/catalog/services/watson-studio)_ para construir un modelo de Machine Learning.
 
 La idea esencial del Desafío 6 es crear un modelo basado en machine learning capaz de identificar la probabilidad de éxito o deserción estudiantil permitiendo tomar acciones a tiempo por la Universidad.
 
@@ -54,8 +54,7 @@ La idea esencial del Desafío 6 es crear un modelo basado en machine learning ca
 
 En este desafío vamos a usar las siguiente herramienta
 
-*[Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio)* proporciona un conjunto de herramientas y un entorno colaborativo para científicos de datos, desarrolladores y expertos en dominios. Es un ambiente de desarrollo (IDE) web que combina herramientas Open Source con tecnología de IBM para desarrollar modelos de Machine Learning y Deep Learning.
-
+_[Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio)_ proporciona un conjunto de herramientas y un entorno colaborativo para científicos de datos, desarrolladores y expertos en dominios. Es un ambiente de desarrollo (IDE) web que combina herramientas Open Source con tecnología de IBM para desarrollar modelos de Machine Learning y Deep Learning.
 
 Mira el tutorial a continuación para aprender como aplicar la tecnología de IBM para resolver el desafío
 
@@ -74,7 +73,7 @@ Para poder realizar este desafío, se deben cumplir con los siguientes requisito
 
 ### 4.2. Resumen de las tareas
 
-1. Cree el servicio [Watson Studio (Cloud Pak for Data as a Service)](https://cloud.ibm.com/catalog/services/watson-studio)  en IBM Cloud. (Si ya lo creo en el desafío 2 no es necesario volverlo a crear)
+1. Cree el servicio [Watson Studio (Cloud Pak for Data as a Service)](https://cloud.ibm.com/catalog/services/watson-studio) en IBM Cloud. (Si ya lo creo en el desafío 2 no es necesario volverlo a crear)
 2. Cree el servicio [Cloud Object Storage](https://cloud.ibm.com/catalog/services/cloud-object-storage) (Si ya lo creo en el desafío 2 no es necesario volverlo a crear)
 3. [Crear un nuevo proyecto vacío en Watson Studio](https://dataplatform.cloud.ibm.com/projects/new-project?context=cpdaas).
 4. Crear el token de acceso al proyecto
@@ -86,7 +85,6 @@ Para poder realizar este desafío, se deben cumplir con los siguientes requisito
 ### 4.3. Desarrollo
 
 La idea esencial del Desafío 6 es crear un modelo basado en machine learning capaz de predecir el exito o deserción estudiantil. El participante trabajará con un conjunto de datos sintéticos proporcionados y creará una modelo que realice la predicción y producir un archivo csv con los resultados.
-
 
 <div align="center">
   <h3>Bases de datos compartidas con los participantes:</h3>
@@ -122,15 +120,15 @@ La idea esencial del Desafío 6 es crear un modelo basado en machine learning ca
   </table>
 </div>
 
-- reducido: Es el nombre del curso o carrera cursada 
-- ciclo: Periodo en que se curso la materia  o curso.
+- reducido: Es el nombre del curso o carrera cursada
+- ciclo: Periodo en que se curso la materia o curso.
 - studentId: Id unico del estudiante
 
 En este repositorio encuentra el notebook necesario para crear proyecto completo en Watson Studio ya con una solución básica lista, totalmente funcional. Puede (y se recomienda) mejorar el modelo para obtener una mayor puntuación.
 
-## 5. Envío
+## 5. Envío (NO SE ENCUENTRA DISPONIBLE)
 
-Para hacer la entrega, debes acceder a la siguiente página: [https://anahuac.maratona.dev/](https://anahuac.maratona.dev/) y cargar un archivo zip  con el archivo csv `results.csv` con los resultados de su predicción y el notebook que desarrolló `anahuac.ipynb`.
+Para hacer la entrega, debes acceder a la siguiente página: [https://anahuac.maratona.dev/](https://anahuac.maratona.dev/) y cargar un archivo zip con el archivo csv `results.csv` con los resultados de su predicción y el notebook que desarrolló `anahuac.ipynb`.
 
 **Si cambia el nombre o formato del archivo csv su solución no será evaluada**
 
@@ -140,7 +138,6 @@ Después de cargar su archivo haga clic en el botón en la esquina inferior dere
 
 Enviar:
 <img align='center' src="./doc/source/images/ANAHUAC_SEND.png" alt="submissão"></img>
-
 
 ## 6. Sobre la evaluación
 
